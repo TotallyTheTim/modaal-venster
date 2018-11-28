@@ -4,47 +4,44 @@ let holder = document.getElementById("holder");
 //modaal object waar alle informatie in staat.
 let modaal = {
 
-        title: [
-            //Title 1
-            "Rood grietje",
+    title: [
+        //Title 1
+        "Hier staat title één",
 
-            //Title 2
-            "Mijn logo ofzo",
+        //Title 2
+        "Hierzo staat title twee",
 
-            //Title 3
-            "Nog een titel"
-        ],
+        //Title 3
+        "En tot slot hier is title drie"
+    ],
 
+    img: [
+        //img 1
+        "plaatje.jpg",
 
-        img: [
-            //img 1
-            "redhead.jpg",
+        //img 2
+        "nog_een_plaatje.png",
 
-            //img 2
-            "newlogoface.png",
-
-            //img 3
-            "snapchat.jpg"
-        ],
-
-
-        text: [
-            //text 1
-            "Ze ziet er niet slecht uit om eerlijk te zijn!<br>" +
-            "Ik zou d'r doen hoor!",
-
-            //text 2
-            "Het ziet er lekker uit hé?<br>" +
-            "Je kan hier ook een <a href='https://www.w3schools.com/tags/att_a_href.asp' target='_blank'>link</a> in doen hé!",
-
-            //text 3
-            "Wat ben ik toch fucking <b>lekker</b> hé. <br>" +
-            "Nee? Fuck <i>you</i>."
-
-        ]
+        //img 3
+        "laatste_plaatje.png"
+    ],
 
 
-    };
+    text: [
+        //text 1
+        "Een simpele text over het onderwerp <br>" +
+        "Makelijk te wijzigen",
+
+        //text 2
+        "Een beschrijving over het tweede onderwerp<br>" +
+        "Je kan hier ook een <a href='#' target='_blank'>link</a> in doen hé",
+
+        //text 3
+        "En natuurlijk voor het derde onderwerp <br>" +
+        "Laat ik zien dat je <b>ook</b> nog <i>tags</i> kan gebruiken."
+    ]
+
+};
 
 //opent voor elke één nieuwe div in de functie newModaal
 let i;
